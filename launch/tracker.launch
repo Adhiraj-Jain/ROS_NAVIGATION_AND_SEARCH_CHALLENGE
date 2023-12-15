@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="search_navigation_challenge" type="tracker.py" name="scn_tracker" output="screen" />
+</launch>

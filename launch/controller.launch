@@ -1,0 +1,16 @@
+<launch>
+    <!-- Launch rosbot drivers. -->
+    <include file="$(find search_navigation_challenge)/launch/rosbot_pro.launch" />
+
+    <!-- Launch navigation stack. -->
+    <include file="$(find search_navigation_challenge)/launch/navigation.launch" />
+
+    <!-- Launch control node. -->
+    <node pkg="search_navigation_challenge" type="controller.py" name="scn_controller" output="screen" />
+    <!-- Launch path tracking node. -->
+    <include file="$(find search_navigation_challenge)/launch/tracker.launch" />
+    <!-- Launch vision node. -->
+    <include file="$(find search_navigation_challenge)/launch/vision.launch" />
+    <!-- Launch explorer node. -->
+    <include file="$(find search_navigation_challenge)/launch/explorer.launch" />
+</launch>

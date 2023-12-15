@@ -1,0 +1,4 @@
+<launch>
+    <include file="$(find search_navigation_challenge)/launch/find_object.launch" />
+    <node pkg="search_navigation_challenge" type="vision.py" name="scn_vision" output="screen" />
+</launch>

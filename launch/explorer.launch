@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="search_navigation_challenge" type="explorer.py" name="wall_follower" output="screen" />
+</launch>
