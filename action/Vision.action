@@ -1,0 +1,8 @@
+#goal
+bool goal
+---
+#result
+int32 result
+---
+#feedback
+int32 feedback
