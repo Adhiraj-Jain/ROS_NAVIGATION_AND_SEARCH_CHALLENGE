@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>search_navigation_challenge</name>
+  <version>0.0.0</version>
+  <description>The search_navigation_challenge package</description>
+
+  <maintainer email="s3897093@student.rmit.edu.au">Rafat Mahiuddin</maintainer>
+  <maintainer email="s3821245@student.rmit.edu.au">Adhiraj Jain</maintainer>
+
+  <license>MIT</license>
+
+  <author email="s3897093@student.rmit.edu.au">Rafat Mahiuddin</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>husarion_ros</exec_depend>
+  <exec_depend>rosbot_description</exec_depend>
+  <exec_depend>rplidar_ros</exec_depend>
+  <exec_depend>rosbot_ekf</exec_depend>
+  <build_depend>rospy</build_depend>
+  <exec_depend>rospy</exec_depend>
+  
+
+  <exec_depend>move_base_msgs</exec_depend>
+  <build_depend>move_base_msgs</build_depend>
+  <build_export_depend>move_base_msgs</build_export_depend>
+
+  <build_depend>nav_msgs</build_depend>
+  <build_export_depend>nav_msgs</build_export_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  
+  <build_depend>actionlib_msgs</build_depend>
+
+  <build_depend>message_generation</build_depend>
+  <build_export_depend>message_runtime</build_export_depend>
+  <exec_depend>message_runtime</exec_depend>
+
+  <build_export_depend>rospy</build_export_depend>
+</package>
+
+
+
